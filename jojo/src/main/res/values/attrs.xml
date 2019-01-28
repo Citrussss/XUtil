@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClipLayout">
+        <attr name="rt" format="float" />
+        <attr name="rb" format="float" />
+        <attr name="lt" format="float" />
+        <attr name="lb" format="float" />
+    </declare-styleable>
+</resources>
