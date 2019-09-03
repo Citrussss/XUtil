@@ -1,6 +1,8 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.github.dcendents.android-maven'//this
+group='com.github.sureping'//this
 android {
     compileSdkVersion 28
 
@@ -41,6 +43,14 @@ dependencies {
     implementation 'com.facebook.rebound:rebound:0.3.8'
     implementation "io.reactivex.rxjava2:rxjava:$rx_java"
     implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    //recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
 }
 repositories {
     mavenCentral()
